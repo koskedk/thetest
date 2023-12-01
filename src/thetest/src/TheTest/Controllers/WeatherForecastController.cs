@@ -16,11 +16,12 @@ public class WeatherForecastController : ControllerBase
 
     private readonly ILogger<WeatherForecastController> _logger;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger,Application application)
     {
         _logger = logger;
         _application = new Application();
     }
+
 
     [HttpGet]
     public IEnumerable<WeatherForecast> Get()
