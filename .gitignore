@@ -413,10 +413,7 @@ ASALocalRun/
 *.code-workspace
 
 #ng
-src/livesync/src/LiveSYNC/ClientApp/.angular/
-src/outlook/src/LiveSYNC.Outlook.Web/ClientApp/.angular/
-src/station/src/LiveSYNC.Station.Web/ClientApp/.angular/
+src/thetest/src/TheTest/ClientApp/.angular
 
 #DEV stuff
 *.Development.json
-src/livesync/src/LiveSYNC/*.db
