@@ -4,6 +4,6 @@ public class Data
 {
     public string SelectOwner()
     {
-        return "Danmegga";
+        return "The Danmegga";
     }
 }
