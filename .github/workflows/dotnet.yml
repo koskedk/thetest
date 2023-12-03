@@ -35,6 +35,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
     - name: Build and push Docker image
+      working-directory: ./src
       run: |
         docker build -t koskedk/thetest:latest .
         docker push koskedk/thetest:latest
